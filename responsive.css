@@ -1,0 +1,197 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1400px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 1200px) {
+  /* video-yt */
+
+  /* current goal */
+  .boxes {
+    margin: 3rem auto 3rem auto;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .box {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .box h3 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 0.5rem;
+  }
+  .box > a > h4 {
+    font-size: 2.5rem;
+  }
+  .box img {
+    width: 8rem;
+  }
+  /*footer*/
+  .footer-content {
+    padding: 3.2rem 6rem;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+  /* header content */
+  #header-container {
+    width: 100%;
+    margin: 0.5rem auto;
+    font-size: 4.3rem;
+  }
+  #header-container .logo {
+    margin: 1.5rem 0rem 1.5rem 6rem;
+  }
+  .B1 {
+    margin: 0.5rem 5rem;
+    font-size: 2.1rem;
+    padding: 1rem 1rem;
+    width: 24rem;
+    line-height: 2rem;
+  }
+  /* why development */
+  .my-reason {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .my-reason h3,
+  .my-reason p,
+  .my-reason .button {
+    text-align: center;
+  }
+  .first-box {
+    padding: 0rem 2rem;
+  }
+  .first-box p {
+    margin-bottom: 1rem;
+  }
+  /* current goal */
+
+  .box h3 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  .box > a > h4 {
+    font-size: 2rem;
+  }
+  .box img {
+    width: 6rem;
+  }
+
+  /*footer*/
+  .footer-content {
+    padding: 3.2rem 5rem;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 768px) {
+  #header-container {
+    width: 100%;
+    margin: 0.5rem auto;
+    font-size: 3.5rem;
+  }
+  #header-container .logo {
+    margin: 1.5rem 0rem 1.5rem 3rem;
+  }
+  .B1 {
+    margin: 0.5rem 2rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    width: 17rem;
+    line-height: 2rem;
+  }
+  .about-me-contents h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .header-content h2 {
+    font-size: 3.5rem;
+  }
+  /*footer*/
+  .footer-content {
+    padding: 1.2rem 2rem;
+  }
+  .commitment {
+    font-size: 1.5rem;
+  }
+  .social-media-links a {
+    padding: 0rem 0.5rem;
+  }
+}
+/* Extra small devices (phones, less than 576px) */
+@media screen and (max-width: 576px) {
+  #header-container {
+    font-size: 3rem;
+  }
+  #header-container .logo {
+    margin: 1.5rem 0rem 1.5rem 3rem;
+  }
+  .button {
+    text-align: center;
+  }
+  .B1 {
+    font-size: 1.5rem;
+    width: 13rem;
+    line-height: 1.6rem;
+    margin: 0.5rem 2rem;
+    border-radius: 4rem;
+  }
+  .b1 {
+    font-size: 1rem;
+    width: 11rem;
+    margin: 0rem 0rem;
+  }
+
+  .about-me-contents h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .header-content h2 {
+    font-size: 3.5rem;
+  }
+  /* current goal */
+
+  .box h3 {
+    font-size: 3rem;
+  }
+  .box > a > h4 {
+    font-size: 1.5rem;
+  }
+  .box img {
+    width: 5rem;
+  }
+
+  /*footer*/
+  .footer-content {
+    padding: 2.2rem 0.3rem;
+  }
+  .commitment {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .social-media-links a {
+    padding: 0rem 0.5rem;
+  }
+  .about-me-contents {
+    padding: 2rem 3rem;
+  }
+  .my-reason {
+    padding: 2rem 3px;
+  }
+  .img-2 img {
+    width: 100%;
+  }
+  .header-content {
+    margin: 0% 4%;
+  }
+  .header-content .p5 {
+    padding: 0rem 3rem;
+  }
+  #head {
+    margin: 0% 10%;
+  }
+}

@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap");
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: linear-gradient(#e6e6fa, #b8e7fa);
+  font-family: "baloo bhai 2", sans-serif;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header-container {
+  width: 87.5%;
+  margin: 0rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 800;
+  font-size: 3.8rem;
+  color: #0d1321;
+}
+#header-container span {
+  color: #ffa500;
+}
+#header-container .logo {
+  margin: 1.5rem 0rem 1.5rem 10rem;
+}
+.B1 {
+  background-image: linear-gradient(to bottom, #ffa500, #ffd447);
+
+  font-family: "baloo bhai 2", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+
+  color: #0d1321;
+  opacity: 0.8;
+
+  margin: 1.5rem 5rem;
+  padding: 1.7rem 2.4rem;
+  border-radius: 1rem;
+  border: none;
+
+  width: 24.874rem;
+  height: 6.4rem;
+
+  box-shadow: 0rem 0.4rem 0.4rem #00000025;
+}
+.B1:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-image: linear-gradient(#ffffff);
+  color: #000000;
+}
+.B1:hover {
+  box-shadow: 0 0 8rem 3rem #ffd447;
+  transition: 1s ease;
+}
+
+/* short about me */
+
+#short-about-me {
+  width: 87.5%;
+  margin: 10rem auto 10rem auto;
+  background-color: #e6edf9;
+  border-radius: 1.6rem;
+}
+.about-me-contents {
+  padding: 3rem 6rem;
+}
+.about-me-contents .img-1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3.2rem;
+}
+.about-me-contents h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 6rem;
+}
+.about-me-contents p {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  opacity: 0.7;
+
+  line-height: 2rem;
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+.about-me-contents .button {
+  text-align: center;
+}
+
+/* Reason beign Developer */
+
+#why-development {
+  width: 87.5%;
+  margin: 0rem auto 10rem auto;
+  border-radius: 1.6rem;
+}
+.header-content {
+  margin: 0% 10%;
+}
+.header-content h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.header-content p {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  opacity: 0.7;
+
+  line-height: 2.6rem;
+
+  text-align: center;
+}
+.my-reason {
+  margin-top: 4.8rem;
+  background-color: #e6edf9;
+  border-radius: 1.6rem;
+
+  padding: 4.8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.first-box h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #111c34;
+
+  margin-bottom: 1.6rem;
+
+  line-height: 3.6rem;
+}
+.first-box p {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  opacity: 0.7;
+
+  margin-bottom: 3.2rem;
+
+  line-height: 2.6rem;
+}
+.my-reason img-2 {
+  width: 100%;
+}
+
+/* my inspiration */
+#head {
+  margin: 0% 20%;
+}
+.ph-video {
+  width: 87.5%;
+
+  margin: 2rem auto 8rem auto;
+  padding: 3.2rem;
+
+  border: 0.2rem solid #0d132120;
+  border-radius: 1.6rem;
+
+  max-width: 100%;
+}
+
+.ph-video .image-container {
+  position: relative;
+
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+
+  border-radius: 1.6rem;
+}
+
+.ph-video .image-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* my current goal */
+.headings {
+  margin: 5% 15% 2% 15%;
+}
+
+.boxes {
+  width: 87.5%;
+  margin: 0rem auto 12rem auto;
+  border-radius: 1.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.box {
+  background-image: linear-gradient(#e6edf9, #9de5ff);
+  border-radius: 1.6rem;
+  width: 45rem;
+  padding: 4rem 3rem;
+  box-shadow: 0rem 0.4rem 4rem #00000025;
+}
+.box img {
+  width: 7rem;
+  margin-bottom: 2.4rem;
+}
+.box h3 {
+  font-size: 4rem;
+  font-weight: 800;
+
+  line-height: 6rem;
+
+  color: #0d1321;
+
+  margin-bottom: 0.5rem;
+}
+.box > a {
+  text-decoration-color: #027ca9;
+}
+.box > a > h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #0d1321;
+}
+
+/* footer */
+.footer-content {
+  background-color: #ffffff60;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3.2rem 7rem;
+}
+.commitment {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.social-media-links a {
+  padding: 0rem 1rem;
+}
