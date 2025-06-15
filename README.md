@@ -1,5 +1,6 @@
-<h1>Personal Portfolio Website – HTML, CSS (Responsive)<h1/><br>
-This is a responsive personal portfolio website built using HTML5 and CSS3. The site presents a brief introduction about me, my reason for becoming a developer, my current goals, and what inspires me. The layout is fully responsive across various screen sizes, from large desktops to small mobile devices.
+<h1>Personal Portfolio Website – HTML, CSS (Responsive)<h1/>
+<br>
+<p>This is a responsive personal portfolio website built using HTML5 and CSS3. The site presents a brief introduction about me, my reason for becoming a developer, my current goals, and what inspires me. The layout is fully responsive across various screen sizes, from large desktops to small mobile devices.</p>
 <hr>
 <h2>Features</h2><br>
 ✅ Responsive design using media queries for all major breakpoints<br>
