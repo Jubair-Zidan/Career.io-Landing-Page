@@ -6,7 +6,7 @@
 ✅ Responsive design using media queries for all major breakpoints<br>
 🎨 Clean and modern UI with linear gradients and smooth typography
 <hr>
-📄 Sections include:<br>
+<h2>📄 Sections include:</h2><br>
 --> Short About Me<br>
 --> Why I Chose Development<br>
 --> My Inspiration (YouTube Embed)<br>
@@ -21,7 +21,7 @@
 --> Google Fonts<br>
 --> YouTube iframe embedding
 <hr>
-📱 Responsiveness<br>
+<h2>📱 Responsiveness</h2><br>
 Supports screen sizes:<br>
 📺 Extra-large devices (desktops above 1200px)<br>
 💻 Laptops & tablets (768px–1200px)<br>
