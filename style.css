@@ -24,11 +24,12 @@ body {
   font-size: 3.8rem;
   color: #0d1321;
 }
-#header-container span {
-  color: #ffa500;
-}
 #header-container .logo {
   margin: 1.5rem 0rem 1.5rem 10rem;
+}
+.logo::after {
+  content: ".io";
+  color: #ffa500;
 }
 .B1 {
   background-image: linear-gradient(to bottom, #ffa500, #ffd447);
