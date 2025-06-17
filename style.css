@@ -173,18 +173,14 @@ body {
   border: 0.2rem solid #0d132120;
   border-radius: 1.6rem;
 
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .ph-video .image-container {
   position: relative;
 
-  width: 100%;
   padding-bottom: 56.25%;
   height: 0;
-  overflow: hidden;
-
-  border-radius: 1.6rem;
 }
 
 .ph-video .image-container iframe {
@@ -193,7 +189,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0;
+  border-radius: 1.6rem;
 }
 
 /* my current goal */
